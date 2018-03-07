@@ -9,7 +9,7 @@
 $(document).ready(function(){
     $('input.typeahead').typeahead({
         name: 'countries',
-        remote: 'http://47.89.176.221:3000/search?key=%QUERY',
+        remote: 'http://<PUBLIC_IP_OF_LOGSTASH>:3000/search?key=%QUERY',
 	hint: false,
 	highlight: true,
 	limit: 5
