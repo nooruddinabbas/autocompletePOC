@@ -59,10 +59,6 @@ res.end(JSON.stringify(data));
 
   });
 
-//res.end(JSON.stringify(rawout));
-      //res.end(getSuggestions(input));
-//      res.end('{"name": "hello", "sku": "123456"}');
-//	});
 });
 
 
