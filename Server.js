@@ -20,6 +20,7 @@ function getSuggestions(input) {
           "match": {
             "name": {
                   "query" : input,
+                  "fuzziness": "AUTO",
                   "operator" : "and"
                   }
                 }
